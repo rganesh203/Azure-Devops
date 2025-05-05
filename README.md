@@ -1,6 +1,6 @@
 # Azure-Devops-Zero-to-Hero with real-time projects
 
-[![Uploading image.png…]()](https://www.google.com/url?sa=i&url=https%3A%2F%2Fvertexcs.com%2Fan-introduction-to-the-azure-devops-toolset%2F&psig=AOvVaw3mXw31a7WyI9t4K4khbhP2&ust=1746540360236000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCID1nYDAjI0DFQAAAAAdAAAAABAp)
+[[![Uploading image.png…]()](https://www.google.com/url?sa=i&url=https%3A%2F%2Fvertexcs.com%2Fan-introduction-to-the-azure-devops-toolset%2F&psig=AOvVaw3mXw31a7WyI9t4K4khbhP2&ust=1746540360236000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCID1nYDAjI0DFQAAAAAdAAAAABAp)](https://b3081282.smushcdn.com/3081282/wp-content/uploads/2023/04/devops-pm-tools.png?lossy=1&strip=1&webp=1)
 
       Welcome to our comprehensive course on Azure DevOps, where we'll dive deep into concepts, demos, and real-time projects to help you master Azure DevOps and bolster your DevOps skills. 
       
