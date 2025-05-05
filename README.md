@@ -2,10 +2,12 @@
       Welcome to our comprehensive course on Azure DevOps, where we'll dive deep into concepts, demos, and real-time projects to help you master Azure DevOps and bolster your DevOps skills. 
       
 Introduction to the Course 👇
-      Course Introduction
+
+            Course Introduction
 
 Introduction to Azure DevOps and Basic Concepts 🌟
-   Introduction to Azure DevOps
+            
+      Introduction to Azure DevOps
 
             Overview of Azure DevOps services and features
             Understanding the Azure DevOps ecosystem
