@@ -1,182 +1,157 @@
 # Azure-Devops-Zero-to-Hero with real-time projects
-      Welcome to our comprehensive course on Azure DevOps, where we'll dive deep into concepts, demos, and real-time projects to help you master Azure DevOps and bolster your DevOps skills. This playlist will be published on my YouTube channel and is free for anyone to use and follow.
-
+      Welcome to our comprehensive course on Azure DevOps, where we'll dive deep into concepts, demos, and real-time projects to help you master Azure DevOps and bolster your DevOps skills. 
+      
 Introduction to the Course 👇
       Course Introduction
 
 Introduction to Azure DevOps and Basic Concepts 🌟
-Status: Video is live, check out 👉 Day1 👈 folder for notes and useful links ✅
+   Introduction to Azure DevOps
 
-What is Cloud Computing
-IaaS VS PaaS VS SaaS
-What is a Shared Responsibility Model
-What is a Traditional Build and Deployment workflow
-What is a Waterfall model in SDLC
-Problems with the traditional software development life cycle (SDLC)
-What is Agile, and how it solve the above challenges
-What is DevOps and Why It Matters
-What is CI/CD
-What is Azure DevOps and a quick walkthrough
-Creating an Azure DevOps Organization
-Creating an Azure DevOps Project
-Azure DevOps Pricing
-Azure DevOps hosting options: Azure DevOps Services VS Azure DevOps Server
-Day 2: Azure Boards and Agile Project Management 📊
-Status: Video is live, check out 👉 Day2 👈 folder for notes and useful links ✅
+            Overview of Azure DevOps services and features
+            Understanding the Azure DevOps ecosystem
+            Azure Repos
+            Git repositories in Azure DevOps
+            Branching strategies and best practices
+            Pull requests and code reviews
+            Azure Pipelines
+            Setting up build and release pipelines
+            Integrating with different platforms and tools
+            Continuous integration and continuous delivery (CI/CD) pipelines
+            Azure Boards
+            Agile planning and tracking
+            Work item management (Epics, User Stories, Tasks)
+            Agile methodologies (Scrum, Kanban)
+            Azure Test Plans
+            Planning, executing, and tracking tests
+            Test case management and execution
+            Automated testing strategies
+            Azure Artifacts
+            Package management with Azure Artifacts
+            Integrating with package managers (npm, NuGet, Maven)
+            Azure DevOps Extensions and Integrations
+            Marketplace extensions and customizations
+            Integrating Azure DevOps with third-party tools and services
+            Azure DevOps Administration
+            User management and security
+            Access control and permissions
+            Monitoring and reporting
+            DevOps Practices and Principles
+            DevOps culture and principles
+            Continuous improvement and DevOps maturity
+            Hands-on Projects and Case Studies
+            Practical exercises and real-world scenarios
+            Project-based learning and implementation
 
-What are Azure DevOps Boards
-What are Azure board processes, agile, scrum, basic, and CMMI
-Managing work items in Azure boards
-Azure board implementation using basic process
-Working with teams, areas, and iterations
-Filters in backlogs and boards
-Azure board implementation using the scrum process
-Sprint planning and capacity planning
-Product backlog and taskboard
-Customizing Kanban boards
-Customizing dashboards
-Work item query
-Customizing team process
-Day 3: Mastering Git and Source Control in Azure DevOps 🌿
-Status: Video is live, check out 👉 Day3 👈 folder for notes and useful links ✅
+This syllabus may vary depending on the specific course or training program you're looking at, but it generally covers the core aspects of using Azure DevOps for managing software development projects efficiently.
 
-Introduction to Source Control and Azure Repos
-Git vs TFVC
-Configure Visual Code
-Cloning the repo
-Commit changes
-Reviewing history
-Working with branches
-Tagging a release
-Managing repository
-Managing Pull requests
-Sample application code
-Day 4: Build Pipeline 🚀
-Status: Video is live, check out 👉 Day4 👈 folder for notes and useful links ✅
+Here's a 30-day Azure DevOps Roadmap designed to help you learn and apply DevOps practices using Azure DevOps. This roadmap assumes 1–2 hours per day of focused learning and practice. It's suitable for developers, testers, or DevOps engineers who want to get proficient with Azure DevOps.
 
-Note: For the demo, we will be using the YouTube Clone website
-Provision Azure App Service to host the website.
-Creating Build Pipelines using the classic editor
-Creating build pipeline using YAML
-YAML pipeline structure, the difference between jobs, stages, steps, and tasks
-Creating a multi-stage CICD pipeline
-variables, triggers, Build properties, agents
-Publishing and Download Build Artifacts
-Day5: 🚀 Continuous Delivery with Azure DevOps Release Pipeline
-Status: Video is live, check out 👉 Day5 👈 folder for notes and useful links ✅
+🔷 Week 1: Fundamentals & Setup
+Day 1–2: Introduction to DevOps & Azure DevOps
+            What is DevOps? Principles and practices
+            
+            Azure DevOps overview (Repos, Pipelines, Boards, Artifacts, Test Plans)
+            
+            Set up Azure DevOps account and organization
 
-Note: this is a continuation of the previous video.
-Automating Deployment with a multi-stage Release Pipelines
-Continuous Deployment Triggers
-Continuous delivery using deployment slots to enable Blue-Green deployment
-Deployment gates such as Query Work Items and Approvals before the prod deployment
-Update the code to test the entire CICD process with the Build and Release pipeline
-Day 6: Azure Test Plans and Testing 🧪
-Status: Video is live, check out 👉 Day6 👈 folder for notes and useful links ✅
+Day 3–4: Azure Boards
+            Create a new project
+            
+            Understand Epics, Features, User Stories, Tasks
+            
+            Create and manage backlogs, sprints, and Kanban boards
 
-Note: We will be using the Youtube Clone website to implement the below steps
-Azure Test Plan Overview
-Features of Azure test plan
-Managing Test Plans, Suites and Cases
-Subscribe to the test plan free trial
-Authoring, Running, and Analyzing Manual Tests
-Azure Test and Feedback extension
-Day 7: Basic Project Artifacts with Azure Artifacts 📦
-Status: Video is live, check out 👉 Day7 👈 folder for notes and useful links ✅
+Day 5–6: Git & Azure Repos
+            Git basics (clone, commit, push, pull, merge)
+            
+            Create and clone Azure Repos
+            
+            Branching strategies (feature, dev, main), pull requests, code reviews
 
-Note: In this video, we will use a ✔ Nike Landing page as a sample application for CICD using Azure Artifacts
-Overview of Azure Artifacts
-Create the Azure DevOps project and check out the application code
-Set up the infra using Azure Web App
-Create Azure Artifacts feed to host the packages
-Create the CI pipeline that builds the package and pushes it to the feed
-Create the CD pipeline that consumes the package
-Promote the package to trigger the release pipeline
-Upstream packages in Azure Artifacts
-Day 8: Infrastructure as Code (IaC) with Terraform and Azure DevOps🚀
-Status: Video is live, check out 👉 Day8 👈 folder for notes and useful links ✅
+Day 7: Hands-on Project Setup
+            Set up a sample project in Azure DevOps
+            
+            Create a Git repo and define work items
 
-Introduction to IaC and Tools
-Various Terraform commands and workflow
-Creating Terraform configuration files
-Setting up terraform backend with Azure storage
-Executing Terraform commands using CLI
-Azure DevOps CI Pipeline to init, plan, and archive the plan file
-Azure DevOps CD pipeline to apply the changes
-Day9: Self Hosted agents 👨‍🔧 on Azure Virtual machine scale sets 🧑‍💻
-Status: Video is live, check out 👉 Day9 👈 folder for notes and useful links ✅
+🔷 Week 2: Pipelines (CI/CD)
+Day 8–9: Build Pipelines (CI)
+            Create a YAML pipeline
+            
+            Understand pipeline stages, jobs, and tasks
+            
+            Add triggers and variables
 
-Microsoft-hosted vs. self-hosted agents
-Use case of self-hosted agents
-Ways to setup self-hosted agents: VM, VMSS, container
-What is a Virtual machine scale set
-Set up a self-hosted agent using VMSS
-Register the agent on an agent pool
-Install custom utilities on the agent
-Use the self-hosted agent on a pipeline
-Comparison between self-hosted and Microsoft-hosted agents
-work folder walkthrough on agent
-Day 10 Managing Containers with Azure DevOps
-Status: Video is live, check out 👉 Day10 👈 folder for notes and useful links ✅
+Day 10–11: Release Pipelines (CD)
+            Set up release pipelines
+            
+            Deploy to environments (Dev, Test, Prod)
+            
+            Approval gates and deployment strategies (manual, automatic)
 
-What is a container
-Understanding Virtual machine V/s Containers.
-Challenges with the non-containerized applications
-Docker Architecture
-Containerize a sample To-Do list web app written in React JS.
-Benefits of a multi-stage docker file
-What are Azure container instances(ACI)
-Azure DevOps CICD Pipeline to deploy to ACI
-Day 11 Implementing end-to-end CICD using Azure DevOps on Kubernetes.
-Status: Video is live, check out 👉 Day11 👈 folder for notes and useful links ✅
+Day 12: Artifact Management
+            Use Azure Artifacts
+            
+            Publish and consume NuGet/npm packages
 
-Basic Introduction of Kubernetes and its benefits
-Kubernetes Architecture
-What is the control plane and its components
-What are Nodes and types of Nodes
-What is a Pod/Deployment/Service
-Azure DevOps CICD Pipeline for a web app running on Kubernetes
-Sample application: My Health Care - Microservices-based Healthcare management app
-Day 12 Security and Permissions in Azure DevOps 🔐
-Status: Video is live, check out 👉 Day12 👈 folder for notes and useful links ✅
+Day 13–14: Pipeline Integration
+            Connect pipelines to Git repositories
+            
+            Use pipeline templates and reusable components
 
-Enabling advanced security in Azure DevOps
-Dependency Scanning
-Secret scanning and managing alerts
-How to use secrets in your pipeline
-Code scanning for vulnerabilities
-Sample Application: My Health Care - Microservices-based Healthcare management app
-Day 13: Serverless app CICD 🐳
-Status: Video is live, check out 👉 Day13 👈 folder for notes and useful links ✅
+🔷 Week 3: Testing & Monitoring
+Day 15–16: Azure Test Plans
+            Create and manage test cases
+            
+            Manual and exploratory testing
+            
+            Connect Test Plans to pipelines
 
-Introduction to Azure functions
-Use case and benefits of an Azure function
-Introduction to the sample app to be used for this demo: Serverless QR Code Generator
-Demo creating the Azure function and deploying locally
-Publishing the function to Azure using CLI tools
-Build and release pipeline for building and deploying the code to Azure Functions
-Day 14: Azure DevOps wiki
-Status: Video is live, check out 👉 Day14 👈 folder for notes and useful links ✅
+Day 17–18: Integrating Automated Tests
+            Integrate unit and functional tests into build pipeline
+            
+            Use test reports and code coverage tools
 
-Overview of wiki
-Creating and editing a project Wiki
-Publishing code as Wiki
-How we can use Azure DevOps wiki to collaborate on a project
-Day 15: Azure DevOps Security best practices 🚢
-Status: Video is live, check out 👉 Day15 👈 folder for notes and useful links ✅
+Day 19: Monitoring & Alerts
+            Integrate Azure Monitor or Application Insights
+            
+            Set up pipeline alerts and notifications
 
-Azure DevOps Access Control
-Organization Settings
-Agent pools Management
-Pipeline settings
-Project-level Settings
-Pipeline security
-Repo settings
-Authentication and Authorization
-Secrets and credentials access
-Day 16: Issue and troubleshooting Azure DevOps
-In this video, we will discuss the most common issues you have faced throughout the series and solutions to those. Status: Video is live, check out 👉 Day16 👈 folder for notes and useful links ✅
-Day 17: Bonus Video: Azure DevOps Scenario-based Interview Questions
-In this video, we will discuss the most asked scenario-based interview questions and answers for Azure DevOps Status: Video is live, check out 👉 InterviewQuestions 👈 folder for notes and useful links ✅
+Day 20–21: Practice & Review
+            End-to-end CI/CD with test integration
+            
+            Fix errors, optimize workflows, troubleshoot
+
+🔷 Week 4: Advanced Concepts & Real-World Use
+Day 22–23: Security & Permissions
+            Set up project-level access controls
+            
+            Use service connections securely
+
+Day 24–25: Infrastructure as Code (IaC)
+            Use ARM templates or Terraform in Azure Pipelines
+            
+            Deploy infrastructure via CI/CD
+
+Day 26–27: Extensions & Integrations
+            Add Marketplace extensions
+            
+            Integrate with GitHub, Slack, Teams, Jenkins, etc.
+
+Day 28–29: Real-World Scenarios
+            Implement a multi-stage pipeline for a web app
+            
+            Use environment approvals and variable groups
+
+Day 30: Final Project / Capstone
+            Build a full Azure DevOps project from scratch
+            
+            Boards for planning
+            
+            Repos for code
+            
+            Pipelines for CI/CD
+            
+            Test Plans and Artifacts
+            
 Contributions are welcome:
 You can raise the pull request to contribute to the course material; please remember to star the repository.
